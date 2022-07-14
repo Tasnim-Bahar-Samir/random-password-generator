@@ -32,6 +32,6 @@ function generatePassword(){
 
 function copyPassword(){
     input.select();
-    input.setSelectionRange(0,9999);
+    // input.setSelectionRange(0,9999);
     navigator.clipboard.writeText(input.value)
 }
